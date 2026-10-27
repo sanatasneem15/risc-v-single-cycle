@@ -7,6 +7,6 @@ module mux2 #(parameter WIDTH = 8) (
 );
 
     assign y = s ? d1 : d0;
-
+    
 endmodule
 
